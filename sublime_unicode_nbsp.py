@@ -95,7 +95,7 @@ class HighlightUnicodeListener(DeferedViewListener):
         u'\x97' : '--',       # Double hyphen
         u'\x99' : ' ',
         u'\xa0' : ' ',        # NO-BREAK SPACE
-        u'\x202f' : ' ',      # NARROW NO-BREAK SPACE
+        u'\u202f' : ' ',      # NARROW NO-BREAK SPACE
         u'\xa6' : '|',        # Split vertical bar
         u'\xab' : '<<',       # Double less than
         u'\xbb' : '>>',       # Double greater than
